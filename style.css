@@ -1,0 +1,49 @@
+body {
+    background: beige;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: white;
+}
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+div .Segundo {
+    background: white;
+    margin-top: 10px;
+}
+
+div .Segundo img {
+    width: 100%;
+}
+div .Segundo .Tercero div:first-child{
+    display: inline-block;
+    width: 80%;
+   }
+div .Segundo .Tercero div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding-right: 10px;
+    text-align: right;
+    color: lightpink
+   
+    }
+div .Segundo h2, p {
+    padding: 10px;
+    margin: 0;
+}
+div .Primero {
+    width: 600px;
+    margin: auto;
+}
+p {
+    font-family: Verdana;
+}
+ 
+h2 {
+    font-family: serif;
+}
